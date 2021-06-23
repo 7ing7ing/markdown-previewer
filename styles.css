@@ -1,0 +1,51 @@
+body {
+  background-color: #39a2db;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.preview-title,
+.editor-title {
+  background-color: #a2dbfa;
+  height: 40px;
+  padding-top: 15px;
+  padding-left: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-top: 25px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+#editor,
+#preview {
+  background-color: #e8f0f2;
+  padding: 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+#editor {
+  width: 350px;
+  height: 450px;
+}
+#preview {
+  width: 550px;
+  height: 450px;
+  overflow-y: auto;
+}
+
+textarea {
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+}
+
+img {
+  height: 40px;
+}
