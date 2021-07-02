@@ -31,7 +31,6 @@ body {
   height: 450px;
 }
 #preview {
-  width: 550px;
   height: 450px;
   overflow-y: auto;
 }
@@ -48,4 +47,22 @@ textarea {
 
 img {
   height: 40px;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+  }
+  #editor {
+    width: 50vw;
+    height: 30vh;
+  }
+  .preview-box {
+    width: 100%;
+  }
+  #preview {
+    margin: 0;
+  }
 }
